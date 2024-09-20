@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
 2. **Install dependencies for both frontend and backend:**
    ```bash
    # Install backend dependencies
-   cd backend
+   cd server
    npm install
 
    # Install frontend dependencies
@@ -37,7 +37,7 @@ To run this project locally, follow these steps:
    ```
 
 3. **Set up environment variables:**
-   Create a `.env` file in the `backend` directory and add the following:
+   Create a `.env` file in the `server` directory and add the following:
    ```env
    PORT=[Your Port]
    MONGO_DB_URI=[Connection URL]
@@ -47,7 +47,7 @@ To run this project locally, follow these steps:
 4. **Run the application:**
    ```bash
    # Start the backend server
-   cd backend
+   cd server
    npm start
 
    # Start the frontend server
