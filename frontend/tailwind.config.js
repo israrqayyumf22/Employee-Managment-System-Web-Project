@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "sevillana": ["Sevillana", "sans-serif"]
+        "pacific" : ["Pacifico", 'sans-serif']
       }
     },
   },
