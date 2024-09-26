@@ -3,7 +3,7 @@ import Login from "./pages/Login";
 import AdminDashboard from "./pages/AdminDashboard";
 import EmployeeDashboard from "./pages/EmployeeDashboard";
 import PrivateRoutes from "./utils/PrivateRoutes";
-import RoleBaseRoutes from "./utils/RoleBaseRoutes";
+import RoleBaseRoutes from "./utils/RoleBaseRoutes"; 
 import AdminSummary from "./components/dashboard/AdminSummary";
 import DepartmentList from "./components/department/DepartmentList";
 import AddDepartment from "./components/department/AddDepartment";
