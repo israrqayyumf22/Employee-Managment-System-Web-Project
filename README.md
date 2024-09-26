@@ -55,6 +55,12 @@ To run this project locally, follow these steps:
    npm run dev
    ```
 
+5. **Create Admin Account:**
+   ```bash
+   cd server
+   node --env-file=.env userSeed.js
+   ```
+
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
