@@ -44,7 +44,13 @@ To run this project locally, follow these steps:
    JWT_SECRET=[Your Secret Key]
    ```
 
-4. **Run the application:**
+4. **Create Admin Account:**
+   ```bash
+   cd server
+   node --env-file=.env userSeed.js
+   ```
+
+5. **Run the application:**
    ```bash
    # Start the backend server
    cd server
@@ -53,12 +59,6 @@ To run this project locally, follow these steps:
    # Start the frontend server
    cd frontend
    npm run dev
-   ```
-
-5. **Create Admin Account:**
-   ```bash
-   cd server
-   node --env-file=.env userSeed.js
    ```
 
 ## Contributing
