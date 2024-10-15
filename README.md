@@ -40,8 +40,8 @@ To run this project locally, follow these steps:
    Create a `.env` file in the `server` directory and add the following:
    ```env
    PORT=[Your Port]
-   MONGO_DB_URI=[Connection URL]
-   JWT_SECRET=[Your Secret Key]
+   MONGODB_URL=[Connection URL]
+   JWT_KEY=[Your Secret Key]
    ```
 
 4. **Create Admin Account:**
