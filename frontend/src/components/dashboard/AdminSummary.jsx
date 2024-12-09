@@ -57,7 +57,7 @@ const AdminSummary = () => {
         <SummaryCard
           icon={<FaMoneyBillWave />}
           text="Monthly Salary"
-          number={`$${summary.totalSalary}`}
+          number={`PKR.${summary.totalSalary}`}
           color="bg-red-600"
         />
       </div>

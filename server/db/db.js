@@ -9,3 +9,4 @@ const connectToDatabase = async () => {
 }
 
 export default connectToDatabase
+// In above code we just ensure that we successfully called the database or not?
